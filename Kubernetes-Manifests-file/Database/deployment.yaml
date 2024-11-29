@@ -15,7 +15,7 @@ spec:
     spec: 
       containers:
       - name: mon
-        image: mongo:4.4.6
+        image: image: 851725323100.dkr.ecr.ap-south-1.amazonaws.com/three-tier-backend:latest
         command:
             - "numactl"
             - "--interleave=all"
